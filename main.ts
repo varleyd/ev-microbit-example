@@ -11,5 +11,5 @@ bluetooth.onUartDataReceived(serial.delimiters(Delimiters.Hash), function () {
 let data = ""
 bluetooth.startUartService()
 basic.forever(function () {
-    bluetooth.startUartService()
+	
 })
